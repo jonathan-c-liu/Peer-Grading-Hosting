@@ -4,7 +4,7 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.STRING,
     },
   });
-
+  /*
   Enrollment.associate = (db) => {
     //enrollments belong to a course
     Enrollment.belongsTo(db.course, {
@@ -14,6 +14,8 @@ module.exports = (sequelize, Sequelize) => {
     Enrollment.belongsTo(db.users, {
       foreignKey: "userId",
     });
+    
   };
+*/
   return Enrollment;
 };
